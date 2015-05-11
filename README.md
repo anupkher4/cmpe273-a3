@@ -1,4 +1,4 @@
-cmpe273-lab6
+cmpe273-assignment
 ============
 
-CMPE 273 Lab 6 Baseline
+Consistent hashing & Rendezvous hashing
