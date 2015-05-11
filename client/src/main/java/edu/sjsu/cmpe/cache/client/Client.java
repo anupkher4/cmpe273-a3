@@ -38,8 +38,8 @@ public class Client {
         al.add(node2);
         al.add(node3);
         
-        ConsistentHash hashAlgo = new ConsistentHash(hf, 1, al);
-//        RendezvousHash hashAlgo = new RendezvousHash(hf, strFunnel, strFunnel, al);
+        //ConsistentHash hashAlgo = new ConsistentHash(hf, 1, al);
+        RendezvousHash hashAlgo = new RendezvousHash(hf, strFunnel, strFunnel, al);
         
         String objNode1 =(String)hashAlgo.get("1");
         String objNode2 =(String)hashAlgo.get("2");
